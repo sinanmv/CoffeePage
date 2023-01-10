@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar ps-5 pe-5 sticky-top bg-white">
+        <div class="navbar-item hyper">
+
+            <!-- class name navbarbtn -->
+            <img src="./images/logo.png" alt="" style="width: 40px;">
+            <a href="#" class="ms-2 text-dark text-decoration-none ">Home</a>
+            <a href="#" class="ms-2 text-dark text-decoration-none">Gift</a>
+            <a href="#" class="ms-2 text-dark text-decoration-none">Order</a>
+            <a href="#" class="ms-2 text-dark text-decoration-none">Pay</a>
+            <a href="../loginpage/login.html" class="ms-2 text-dark text-decoration-none">Sign in</a>
+        </div>
+        <div class="border border-2 searchbar">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Looking  for something" class="border border-0">
+        </div>
+
+
+    </div>
+
+    <!-- newsbanner -->
+    <div class="container">
+        <div class="row d-flex justify-content-between bg-success bg-success newsbanner">
+            A World Of Awards awaits you!Sign up now
+            <button class="col-2 btnknow bg-transparent border border-white text-white navbarbtn">Know More</button>
+        </div>
+        <div class="row fs-1">
+            Handcrafted Curations
+        </div>
+        <!-- banner offer css class -->
+        <div class="row align-center banneroffer">
+
+
+
+            <!-- bannerimg css -->
+            <div class="col-3 text-center">
+                <img src="./images/Bestseller.jpg" alt="" class="rounded-circle bannerimg">
+                <h4>Bestseller</h4>
+            </div>
+
+            <div class="col-3 text-center">
+                <img src="./images/CoffeeAtHome.jpg" alt="" class="rounded-circle bannerimg">
+                <h4>CoffeeAtHome</h4>
+            </div>
+
+            <div class="col-3 text-center">
+                <img src="./images/Drinks.jpg" alt="" class="rounded-circle bannerimg">
+                <h4>Drinks</h4>
+            </div>
+
+            <div class="col-3 text-center">
+                <img src="./images/Food.jpg" alt="" class="rounded-circle bannerimg">
+                <h4>Food</h4>
+            </div>
+            <!-- <div class="row mt-5">
+                <div class="row">
+                    <h3>Barista Recommends</h3>
+                </div>
+                <div class="row pricetag d-flex justify-content-between">
+                    <div class="col-5 p-2 border d-flex">
+                        <div>
+                            <img src="./images/imagescol-1.jpg" alt="" style="width: 80px;">
+                            
+                        </div>
+                        <div class="text-right">
+                            <p class="ms-2 fs-5 mt-3 float-right">Java Chip Frappuccino</p><br>
+                            <p>$99</p>
+                            <button class="float-right">Add</button>
+                        
+                        </div>
+    
+                    </div>
+                    <div class="col-5 p-2 border">
+                        <img src="./images/imagescol-1.jpg" alt="" style="width: 80px;">
+                        <p class="ms-2 fs-5 mt-3">Java Chip Frappuccino</p>
+    
+                    </div>
+                </div>
+
+            </div> -->
+            <div class="row mt-5 d-flex justify-content-between recommand">
+                <h2>Barista Recommends</h2>
+                <div class="images-1 col-xl-3 col-md-5 col-xs-10 me-3 mb-4 mt-5">
+                <img src="./images/imagescol-1.jpg" alt="">
+                    <h1>Java Chip Frappuccino</h1>
+                </div>
+                <div class="images-1 col-xl-3 col-md-5 col-xs-10 me-3 mt-5">
+                    <img src="./images/imagescol-2.jpg" alt="">
+                    <h1>Cold Coffee</h1>
+                </div>
+                <div class="images-1 col-xl-3 col-md-5 col-xs-10 mt-5 mb-5">
+                    <img src="./images/images-3.jpg" alt="">
+                    <h1>Vanilla Sweet Cream Cold Brew</h1>
+                </div>  
+            </div>
+            
+
+            <div class="row mt-5 bannersub pt-5 text-white">
+                <div class="col-2">
+                    <img src="./images/subbannerimage.png" alt="" style="max-width: 100px;">
+
+                </div>
+                <div class="col-6">
+                    <p>Welcome 2023 With</p>
+                    <h3>Starry Celebration</h3>
+                    <p>Earn 3 Bouns Stars on a single soend of Rs 1000 or more from 1st to 31st January,2023</p>
+                    <p>starting From</p>
+                    <p>$99.99</p>
+
+                </div>
+    
+                <div class="col-3 absol">
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex align-center mt-5 mb-5 d-flex justify-content-between">
+            <div class="col-xl-3 col-md-5 col-xs-10 col2img ms-2 p-3 mb-3">
+                <img src="./images/col-2-1.jpg" alt="" class="mb-3">
+                <h4 class="mt-2 mb-3">Peppermint Mocha</h4>
+                A chocolatey coffee beverage highlighted with peppermint notes that brings up memories of candy canes and holi..
+                <div class="d-flex justify-content-between mt-4 detailscontain">
+                    <p>$78.98</p>
+                    <button class="btn btn-success">Add Cart</button>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-5 col-xs-10 col2img ms-2 p-3 mb-3">
+                <img src="./images/col-2-2.jpg" alt="" class="mb-3">
+                <h4 class="mt-2 mb-3">Iced Peppermint Mocha</h4>
+                A chocolatey coffee beverage served over ice highlighted with peppermint notes that brings up memories of cand..
+                <div class="d-flex justify-content-between mt-4 detailscontain">
+                    <p>$78.98</p>
+                    <button class="btn btn-success">Add Cart</button>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-5 col-xs-10 col2img ms-2 p-3 mb-3">
+                <img src="./images/col-2-3.jpg" alt="" class="mb-3">
+                <h4 class="mt-2 mb-3">Peppermint Mocha Frappuccino</h4>
+                A delectable blend of chocolate-pepperminty perfection in every cool sip. Made with coffee, Mocha sauce, Peppe..
+                <div class="d-flex justify-content-between mt-4 detailscontain">
+                    <p>$78.98</p>
+                    <button class="btn btn-success">Add Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="w-100 py-4 flex-shrink-0" style="background-color: #0e382c;">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/logo.png" alt="" width="150px">
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Get started</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+                    
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+.navbarbtn
+{
+    border-radius: 25px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.newsbanner
+{
+    padding: 10px;
+    color: white;
+}
+.newsbanner button
+{
+    font-size: small;
+    min-width: 100px;
+    max-width: 150px;
+}
+.bannerimg
+{
+    min-width: 30px;
+    max-width: 100px;
+}
+.banneroffer h4
+{
+    margin-top: 10px;
+    font-size: medium;
+}
+.images-1
+{
+    max-width: 700px;
+    height: 400px;
+    background-position: center;
+    position: relative;
+    
+}
+.images-1 img:hover{
+    filter:brightness(0.5) ;
+}
+.images-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.images-1 h1
+{
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 10%;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: larger;
+}
+.images-1:hover h1{
+    color: white;
+    opacity: 1;
+}
+.recommand
+{
+    background: #edebe9;
+}
+.bannersub
+{
+    background: url(./images/Banner_autumn_fc363ea564.png);
+    background-size: cover;
+    height: 300px;
+    border-radius: 25px;
+    position: relative;
+}
+.absol
+{
+    position: absolute;
+    bottom: 10%;
+    left: 75%;
+}
+.bannersub button
+{
+    padding: 10px 30px;
+    border: none;
+    min-width: 50px;
+    border-radius: 25px;
+}
+.bannersub img
+{
+    position: absolute;
+    left: 0%;
+}
+.col2img
+{
+    box-shadow: 0px 0px 10px -5px;  
+    height: 400px;  
+}
+.col2img img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.detailscontain button
+{
+    padding: 5px 20px;
+}
+.searchbar
+{
+    border-radius: 25px;
+    padding: 2px 5px;
+}
+.hyper a:hover
+{
+    color: green;
+}
