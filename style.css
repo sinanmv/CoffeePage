@@ -1,6 +1,16 @@
 .navbarbtn
 {
     border-radius: 25px;
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+
+}
+.navbarbtn:hover
+{
+
+    color: black;
+    background-color: white;
 }
 html
 {
@@ -26,6 +36,11 @@ html
 {
     margin-top: 10px;
     font-size: medium;
+    transition: 0.5s;
+}
+.banneroffer > div:hover h4
+{
+    color: green;
 }
 .images-1
 {
@@ -107,7 +122,12 @@ html
     border-radius: 25px;
     padding: 2px 5px;
 }
-.hyper a:hover
+.hyperhref
+{
+    color: black;
+    transition: 0.5s;
+}
+.hyperhref:hover
 {
     color: green;
 }
